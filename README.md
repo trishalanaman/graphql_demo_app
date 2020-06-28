@@ -15,6 +15,7 @@ Clone this repo and extract it's content. Then press Ctrl + Alt + T or open term
 - `sudo npm install bcrypt`
 - `sudo npm install jsonwebtoken`
 - `sudo npm install nodemon`
+- `sudo npm install nodemailer`
 - To run the server, type `nodemon app` or `node app`
 
 App will now be running on http://localhost:4000/graphql
