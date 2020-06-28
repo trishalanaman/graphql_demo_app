@@ -19,3 +19,36 @@ Clone this repo and extract it's content. Then press Ctrl + Alt + T or open term
 - To run the server, type `nodemon app` or `node app`
 
 App will now be running on http://localhost:4000/graphql
+
+## Schema for the app is as followas - 
+### Query 
+Users {
+name: String
+age: Int
+email: String
+password: String
+token: String
+}
+
+### Mutation
+signup(
+name: String!
+age: Int!
+email: String!
+password: String!
+): User
+
+login(email: String!password: String!): User
+reset_password(
+email: String!
+old_password: String!
+new_password: String!
+): User
+
+forgot_password(email: String!): Otp
+
+reset_password_after_receiving_otp(
+email: String!
+otp: String!
+new_password: String!
+): Otp
