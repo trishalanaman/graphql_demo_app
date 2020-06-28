@@ -34,3 +34,5 @@ App will now be running on http://localhost:4000/graphql
 > forgot_password (email): Otp
 
 > reset_password_after_receiving_otp (email, otp, new_password): Otp
+
+![Screenshot](https://github.com/trishalanaman/graphql_demo_app/blob/master/Screenshot%20from%202020-06-28%2023-37-33.png)
