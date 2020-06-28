@@ -1,5 +1,5 @@
 # graphql_demo_app
-### An implementation of GraphQl Server, running on Express. For database, we are using MongoDB.
+### An implementation of login app based on GraphQl. Server is running on Express & for database MongoDB is used.
 
 This repository is for demonstration purposes only. To use this app locally on Linux machine, follow these steps -
 
