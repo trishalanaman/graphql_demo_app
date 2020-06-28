@@ -1,2 +1,20 @@
 # graphql_demo_app
-This repository is for demonstration purposes only.
+### An implementation of GraphQl Server, running on Express. For database, we are using MongoDB.
+
+This repository is for demonstration purposes only. To use this app locally on Linux machine, follow these steps -
+
+Clone this repo and extract it's content. Then press Ctrl + Alt + T or open terminal in the same directory. Then enter following commands on the terminal
+- `cd graphql_demo_app`
+- `cd server`
+- `sudo apt install nodejs`
+- `npm init`
+- `sudo npm install express`
+- `sudo npm install express-graphql`
+- `sudo npm install mongoose`
+- `sudo npm install lodash`
+- `sudo npm install bcrypt`
+- `sudo npm install jsonwebtoken`
+- `sudo npm install nodemon`
+- To run the server, type `nodemon app` or `node app`
+
+App will now be running on http://localhost:4000/graphql
