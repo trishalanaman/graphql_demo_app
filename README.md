@@ -4,7 +4,7 @@
 This repository is for demonstration purposes only. To use this app locally on Linux machine, follow these steps -
 
 Clone this repo and extract it's content. Then press Ctrl + Alt + T or open terminal in the same directory. Then enter following commands on the terminal
-- `cd graphql_demo_app`
+- `cd graphql_demo_app-master`
 - `cd server`
 - `sudo apt install nodejs`
 - `npm init`
