@@ -20,7 +20,7 @@ Clone this repo and extract it's content. Then press Ctrl + Alt + T or open term
 
 App will now be running on http://localhost:4000/graphql
 
-## Schema for the app is as followas - 
+## Schema for the app is as follows - 
 ### Query 
 > Users { name, age, email, password, token }
 
